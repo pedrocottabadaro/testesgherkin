@@ -14,8 +14,3 @@ Feature: Adicionar 2 numeros na calculadora
       |   60    |      0    |     60   |     +   |
 
 
-
-  #Scenario: name
-# Given [Initial context] And [some more context]
-# When [Event] And [some other event]
-# Then [Outcome] And [some other outcome]

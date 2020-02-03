@@ -1,11 +1,20 @@
 # Created by pedro at 1/28/2020
-Feature: testando vs
-  # Enter feature description here
+Feature: Alterando balanca banco
 
-  Scenario: teste
-    Given number "4"
-    When i click "enter"
-    Then i should see the number "4"
+
+  Scenario Outline: Depositar
+    Given a bank account with initial "<variavel>" of "<valor>"
+    When we "<metodo>" an amount of "<valor>" into the account
+    Then the "<variavel>" of the account should be "<valor>"
+    Examples:
+
+   Examples:Variveis
+      | valor | metodo   | variavel |
+      |   0   | deposit  |  balance |
+      |   500 |          |  balance |
+      |   500 |          |          |
+
+
 
 
 

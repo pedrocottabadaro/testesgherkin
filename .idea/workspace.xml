@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2261c137-132b-48f3-81f1-8d0ddc26bd94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/banco/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banco/steps/aspas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banco/steps/DefinicoesCenarioBanco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CenarioAdd.feature" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/CenarioAdd.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banco/cenariosbanco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/banco/cenariosbanco.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco/definicoescenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/banco/steps/definicoescenario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operacoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/operacoes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/DefinicaoCenarioAdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/steps/DefinicaoCenarioAdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/banco/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco/steps/aspas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco/steps/definicoescenario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora/CenarioAdd.feature" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/CenarioAdd.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/banco/cenariosbanco.feature" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -61,17 +60,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Behave.calculadora">
-    <configuration name="CenarioAdd.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="TEste" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="calculadora" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\Python\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/calculadora/CenarioAdd.feature" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/banco/cenariosbanco.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -100,20 +99,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/calculadora/CenarioAdd.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cenariosbanco.feature" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="calculadora" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/banco/cenariosbanco.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -162,16 +147,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Behave.TEste" />
       <item itemvalue="Behave.calculadora" />
-      <item itemvalue="Behave.cenariosbanco.feature" />
-      <item itemvalue="Behave.CenarioAdd.feature" />
       <item itemvalue="Python.DefinicaoCenarioAdd" />
       <item itemvalue="Python.operacoes" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.operacoes" />
-        <item itemvalue="Behave.CenarioAdd.feature" />
         <item itemvalue="Python.DefinicaoCenarioAdd" />
       </list>
     </recent_temporary>
@@ -204,6 +187,9 @@
       <workItem from="1580237107802" duration="628000" />
       <workItem from="1580533667687" duration="1393000" />
       <workItem from="1580718389979" duration="5107000" />
+      <workItem from="1580723506962" duration="3109000" />
+      <workItem from="1580726626214" duration="312000" />
+      <workItem from="1580726947661" duration="97000" />
     </task>
     <servers />
   </component>
@@ -215,44 +201,54 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="735" y="285" width="642" height="704" key="#cenariosbanco.feature/67.27.1853.1053@67.27.1853.1053" timestamp="1580534251262" />
-    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580718642395">
+    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580726854759">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580718642395" />
-    <state width="1354" height="259" key="GridCell.Tab.0.bottom" timestamp="1580723496899">
+    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580726854759" />
+    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580726843921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580723496899" />
-    <state width="1354" height="259" key="GridCell.Tab.0.center" timestamp="1580723496899">
+    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580726843921" />
+    <state width="1354" height="259" key="GridCell.Tab.0.bottom" timestamp="1580726937918">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580723496899" />
-    <state width="1354" height="259" key="GridCell.Tab.0.left" timestamp="1580723496898">
+    <state width="1354" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937918" />
+    <state width="1354" height="259" key="GridCell.Tab.0.center" timestamp="1580726937917">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580723496898" />
-    <state width="1354" height="259" key="GridCell.Tab.0.right" timestamp="1580723496899">
+    <state width="1354" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937917" />
+    <state width="1354" height="259" key="GridCell.Tab.0.left" timestamp="1580726937917">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580723496899" />
+    <state width="1354" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937917" />
+    <state width="1354" height="259" key="GridCell.Tab.0.right" timestamp="1580726937918">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937918" />
     <state x="603" y="170" key="SettingsEditor" timestamp="1580533708022">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="603" y="170" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580533708022" />
-    <state x="667" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1580723507056">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1580725443466">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="667" y="377" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580723507056" />
-    <state x="712" y="478" width="504" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1580721730894">
+    <state width="498" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1580725443466" />
+    <state x="667" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1580726948758">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="712" y="478" width="504" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580721730894" />
+    <state x="667" y="377" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580726948758" />
+    <state x="712" y="478" width="504" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1580725187776">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="712" y="478" width="504" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580725187776" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/testesgherkin$operacoes.coverage" NAME="operacoes Coverage Results" MODIFIED="1580720631907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculadora" />
-    <SUITE FILE_PATH="coverage/testesgherkin$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1580721183229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1580726809239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/calculadora$DefinicaoCenarioAdd.coverage" NAME="DefinicaoCenarioAdd Coverage Results" MODIFIED="1579563031609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/steps" />
     <SUITE FILE_PATH="coverage/calculadora$CenarioAdd_feature.coverage" NAME="test Coverage Results" MODIFIED="1579640750691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/testesgherkin$cenariosbanco_feature.coverage" NAME="cenariosbanco.feature Coverage Results" MODIFIED="1580534252772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$cenariosbanco_feature.coverage" NAME="test.feature Coverage Results" MODIFIED="1580726563039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$test_feature.coverage" NAME="test Coverage Results" MODIFIED="1580726795863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$TEste.coverage" NAME="TEste Coverage Results" MODIFIED="1580726950419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
