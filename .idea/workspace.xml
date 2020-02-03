@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2261c137-132b-48f3-81f1-8d0ddc26bd94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/banco/steps/DefinicoesCenarioBanco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banco/cenariosbanco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/banco/cenariosbanco.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/banco/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco/steps/aspas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco/steps/definicoescenario.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculadora/CenarioAdd.feature" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/CenarioAdd.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco/steps/DefinicoesCenarioBanco.py" beforeDir="false" afterPath="$PROJECT_DIR$/banco/steps/DefinicoesCenarioBanco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora/steps/DefinicaoCenarioAdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/steps/DefinicaoCenarioAdd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/banco/cenariosbanco.feature" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -189,7 +186,9 @@
       <workItem from="1580718389979" duration="5107000" />
       <workItem from="1580723506962" duration="3109000" />
       <workItem from="1580726626214" duration="312000" />
-      <workItem from="1580726947661" duration="97000" />
+      <workItem from="1580726947661" duration="315000" />
+      <workItem from="1580727606962" duration="3000" />
+      <workItem from="1580727756999" duration="2155000" />
     </task>
     <servers />
   </component>
@@ -201,30 +200,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="735" y="285" width="642" height="704" key="#cenariosbanco.feature/67.27.1853.1053@67.27.1853.1053" timestamp="1580534251262" />
-    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580726854759">
+    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580730136806">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580726854759" />
-    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580726843921">
+    <state x="648" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580730136806" />
+    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580727219969">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580726843921" />
-    <state width="1354" height="259" key="GridCell.Tab.0.bottom" timestamp="1580726937918">
+    <state x="973" y="293" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580727219969" />
+    <state width="1807" height="259" key="GridCell.Tab.0.bottom" timestamp="1580730367980">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937918" />
-    <state width="1354" height="259" key="GridCell.Tab.0.center" timestamp="1580726937917">
+    <state width="1807" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580730367980" />
+    <state width="1807" height="259" key="GridCell.Tab.0.center" timestamp="1580730367980">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937917" />
-    <state width="1354" height="259" key="GridCell.Tab.0.left" timestamp="1580726937917">
+    <state width="1807" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580730367980" />
+    <state width="1807" height="259" key="GridCell.Tab.0.left" timestamp="1580730367979">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937917" />
-    <state width="1354" height="259" key="GridCell.Tab.0.right" timestamp="1580726937918">
+    <state width="1807" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580730367979" />
+    <state width="1807" height="259" key="GridCell.Tab.0.right" timestamp="1580730367980">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1354" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580726937918" />
+    <state width="1807" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580730367980" />
     <state x="603" y="170" key="SettingsEditor" timestamp="1580533708022">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -244,11 +243,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/testesgherkin$operacoes.coverage" NAME="operacoes Coverage Results" MODIFIED="1580720631907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculadora" />
-    <SUITE FILE_PATH="coverage/testesgherkin$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1580726809239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1580730367969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/calculadora$DefinicaoCenarioAdd.coverage" NAME="DefinicaoCenarioAdd Coverage Results" MODIFIED="1579563031609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/steps" />
     <SUITE FILE_PATH="coverage/calculadora$CenarioAdd_feature.coverage" NAME="test Coverage Results" MODIFIED="1579640750691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/testesgherkin$cenariosbanco_feature.coverage" NAME="test.feature Coverage Results" MODIFIED="1580726563039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/testesgherkin$test_feature.coverage" NAME="test Coverage Results" MODIFIED="1580726795863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/testesgherkin$TEste.coverage" NAME="TEste Coverage Results" MODIFIED="1580726950419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testesgherkin$TEste.coverage" NAME="TEste Coverage Results" MODIFIED="1580730301666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
