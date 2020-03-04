@@ -5,7 +5,7 @@ Feature: Aprovacao aluno
 
       Scenario Outline: some scenario
         Given a <student> with <nota>,<nota1> e<nota2>
-        When I <action>
+        When I <action> 
         Then result should be <result>
       Examples:
 
