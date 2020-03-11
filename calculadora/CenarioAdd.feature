@@ -9,8 +9,8 @@ Feature: Adicionar 2 numeros na calculadora
 
     Examples:Variveis
       | inicial | secundario| resultado |operacao|
-      |   9     |     30    |     39   |     +   |
+      |   9     |     30    |     270   |     *   |
       |   20    |      2    |      22  |    +     |
-      |   60    |      0    |     60   |     +   |
+      |   60    |      0    |     60   |     -   |
 
 

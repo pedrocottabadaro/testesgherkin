@@ -5,9 +5,9 @@ class Calculator:
     numero2=0
     resultado=0
     operacao=""
-    def inicia(self,numero1,numero2):
-        self.numero1=numero1
-        self.numero2=numero2
+    def __init__(self,numero1,numero2):
+        self.numero1=float(numero1)
+        self.numero2=float(numero2)
 
     def UsarOperacao(self,operacao):
         self.operacao=operacao
